@@ -1,0 +1,131 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 20px;
+  line-height: 1.45;
+  color: #142033;
+  background: #f4f1ea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+header h1 {
+  margin: 0 0 20px;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.kicker {
+  margin: 0 0 6px;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a4b12;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+nav a {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #fff;
+  color: #142033;
+  text-decoration: none;
+  border: 1px solid #d9d1c3;
+}
+
+nav a[aria-current="page"] {
+  background: #142033;
+  color: #fff;
+  border-color: #142033;
+}
+
+main {
+  margin-top: 28px;
+}
+
+.hint {
+  margin: 0 0 16px;
+  padding: 12px 16px;
+  background: #fff7ec;
+  border-left: 4px solid #e07a1a;
+}
+
+.stage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #d9d1c3;
+  border-radius: 16px;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+select {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid #142033;
+  background: #142033;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #c8bfb0;
+  background: #fff;
+  color: #142033;
+}
+
+.stage p {
+  margin: 0;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.stage ul {
+  width: 100%;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.probe {
+  display: grid;
+  gap: 8px;
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+.probe input {
+  width: 100%;
+}
